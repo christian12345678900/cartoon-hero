@@ -1,3 +1,8 @@
+html, body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
 header{
 	background-color: #002db3;
 	padding: 40px;
@@ -12,7 +17,11 @@ header img{
 	
 }
 
-/*<header>
-			<img src="img/profile.jpg">
-			<h1>Captain America</h1>
-		</header>*/
+.content{
+	max-width: 900px;
+	margin: 0px 100px 100px
+}
+
+img.big-image{
+	max-width: 100%;
+}
